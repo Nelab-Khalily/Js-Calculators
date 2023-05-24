@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Calculator | Desinged in the class; Scripted at home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="main">
+    <form>
+      <label for="num1">First Number: </label><br>
+      <input type="text" name="num1" id="num1"><br><br>
+
+      <label for="num2">Second Number:</label><br>
+      <input type="text" name="num2" id="num2"><br><br>
+    </form>
+  </div>
+
+  <div id="btns">
+    <button class="btn" id="sum" onclick="sum()">+</button>
+    <button class="btn" id="sub" onclick="sub()">-</button>
+    <button class="btn" id="multi" onclick="multi()">*</button>
+    <button class="btn" id="divid" onclick="divid()">/</button>
+  </div>
+
+  <div id="result">
+    <p>The Result is: </p>
+    <p id="result1">show the result</p>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
